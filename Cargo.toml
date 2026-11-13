@@ -2,7 +2,7 @@
 name = "koyot_ss"
 version = "0.1.0"
 edition = "2024"
-discription = "This is a mini Environment"
+description = "This is a mini Environment"
 license = "GPL-3.0-only"
 
 [dependencies]
