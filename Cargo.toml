@@ -1,0 +1,10 @@
+[package]
+name = "koyot_ss"
+version = "0.1.0"
+edition = "2024"
+discription = "This is a mini Environment"
+license = "GPL-3.0-only"
+
+[dependencies]
+egui-macroquad = "0.17.3"
+macroquad = "0.4.16"
