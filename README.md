@@ -4,11 +4,14 @@
 
 ---
 
-# 📕 - Notes
+# **📕 - Notes**
 
 > [!NOTE]
-> V.1.4 : This is the main version now
+> - 📃 - V.1.5 : This is the main version now
+> - ⚖ - License : GPL-3.0-only
 
 ---
 
-# ⚖ - License : GPL-3.0-only
+# **📣 - news for this version**
+> [!IMPORTANT]
+> - Add Logs system
