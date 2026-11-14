@@ -7,7 +7,7 @@
 # **📕 - Notes**
 
 > [!NOTE]
-> - 📃 - V.1.5 : This is the main version now
+> - 📃 - V.1.7 : This is the main version now
 > - ⚖ - License : GPL-3.0-only
 
 ---

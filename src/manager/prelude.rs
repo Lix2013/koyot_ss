@@ -14,6 +14,8 @@
 use macroquad::prelude::*;
 use crate::manager::log;
 
+const MOUSE_BYTES: &[u8] = include_bytes!("../../assets/mouse.png");
+
 pub async fn start_program() {
     log::log(log::LogStates::Info, "Adding vars to RAM ...");
     // main vars
@@ -21,7 +23,8 @@ pub async fn start_program() {
     let welcome_text = "[ KOYOT SS ]";
     let welcome_text_data = measure_text(welcome_text, None, 50, 1.0);
     let mut open_welcome_win = true;
-    let texture = load_texture("assets/mouse.png").await.unwrap();
+    let image = macroquad::texture::Image::from_file_with_format(MOUSE_BYTES, None).unwrap();
+    let texture = macroquad::texture::Texture2D::from_image(&image);
     let mut should_exit = false;
     log::log(log::LogStates::Success, "Vars Added !");
 
