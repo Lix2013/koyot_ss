@@ -4,5 +4,11 @@
 
 ---
 
-> [!WARNING]
-> This project is blocked and no longer maintained.
+# 📕 - Notes
+
+> [!NOTE]
+> V.1.3 : This is the main version now
+
+---
+
+# ⚖ - License : GPL-3.0-only

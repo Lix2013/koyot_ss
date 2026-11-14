@@ -702,7 +702,7 @@ dependencies = [
 
 [[package]]
 name = "koyot_ss"
-version = "0.1.2"
+version = "0.1.3"
 dependencies = [
  "egui-macroquad",
  "macroquad",
