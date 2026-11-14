@@ -13,7 +13,7 @@ pub async fn start_program() {
     let mut open_welcome_win = true;
     let texture = load_texture("assets/mouse.png").await.unwrap();
     let mut should_exit = false;
-    log::log(log::LogStates::Sucres, "Vars Added !");
+    log::log(log::LogStates::Success, "Vars Added !");
 
     // boot
     log::log(log::LogStates::Info, "Booting ...");
@@ -29,7 +29,7 @@ pub async fn start_program() {
 
         next_frame().await
     }
-    log::log(log::LogStates::Sucres, "Booting finished !");
+    log::log(log::LogStates::Success, "Booting finished !");
 
     // main loop
     log::log(log::LogStates::Info, "Starting main loop");
