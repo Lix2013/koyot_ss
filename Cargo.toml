@@ -1,6 +1,6 @@
 [package]
 name = "koyot_ss"
-version = "0.1.5"
+version = "0.1.6"
 edition = "2024"
 description = "This is a mini Environment"
 license = "GPL-3.0-only"

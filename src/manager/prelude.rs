@@ -1,4 +1,14 @@
-// program.rs
+// prelude.rs
+
+//! # App logic
+//! ---
+//! the app logic is simple
+//! the program starts in start_program function
+//! load the main textures and vars
+//! 
+//! he start in the first loop for 5s write [ KOYOT SS ] in screen
+//! the 2nd loop is the main logic : windows, inputs ...
+//! and the 3th loop he is a exit splash write in screen [ KOYOT SS ] for 5s
 
 // imports
 use macroquad::prelude::*;
