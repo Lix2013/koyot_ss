@@ -7,7 +7,7 @@
 # 📕 - Notes
 
 > [!NOTE]
-> V.1.3 : This is the main version now
+> V.1.4 : This is the main version now
 
 ---
 

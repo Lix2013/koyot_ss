@@ -2,9 +2,10 @@
 
 // imports
 use macroquad::prelude::*;
+use crate::manager::log;
 
 pub async fn start_program() {
-    println!("Adding vars to RAM");
+    log::log(log::LogStates::Info, "Adding vars to RAM ...");
     // main vars
     let mut open_win = true;
     let welcome_text = "[ KOYOT SS ]";
@@ -12,10 +13,10 @@ pub async fn start_program() {
     let mut open_welcome_win = true;
     let texture = load_texture("assets/mouse.png").await.unwrap();
     let mut should_exit = false;
-    println!("Vars Added");
+    log::log(log::LogStates::Sucres, "Vars Added !");
 
     // boot
-    println!("Booting ...");
+    log::log(log::LogStates::Info, "Booting ...");
     let start_boot_time = get_time();
     loop {
         clear_background(BLACK);
@@ -28,10 +29,10 @@ pub async fn start_program() {
 
         next_frame().await
     }
-    println!("Booting finished !");
+    log::log(log::LogStates::Sucres, "Booting finished !");
 
     // main loop
-    println!("Starting main loop ...");
+    log::log(log::LogStates::Info, "Starting main loop");
     loop {
         clear_background(BLACK);
 
@@ -108,5 +109,5 @@ pub async fn start_program() {
 
         next_frame().await
     }
-    println!("Exit program");
+    log::log(log::LogStates::Info, "Exiting ...");
 }
