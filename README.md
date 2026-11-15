@@ -7,11 +7,11 @@
 # **📕 - Notes**
 
 > [!NOTE]
-> - 📃 - V.1.7 : This is the main version now
+> - 📃 - V.1.8 : This is the stable version now
 > - ⚖ - License : GPL-3.0-only
 
 ---
 
 # **📣 - news for this version**
 > [!IMPORTANT]
-> - Add Logs system
+> - removing build bugs in linux
