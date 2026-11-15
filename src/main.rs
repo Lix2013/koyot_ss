@@ -8,7 +8,7 @@ mod manager;
 // imports
 use macroquad::prelude::*;
 use manager::{
-    prelude,
+    main_systems,
     window::window_config
 };
 
@@ -16,5 +16,5 @@ use manager::{
 async fn main() {
     // main settings
     show_mouse(false);
-    prelude::start_program().await;
+    main_systems::start_program().await;
 }
